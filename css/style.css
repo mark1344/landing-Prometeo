@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-gris{
+     background: rgba(0,0,0,.7);
+    padding-top: 20px;
+   
+}
+header{
+    position : relative;
+}
+
+
+header .container{
+    position: relative;
+}
+
+.navbar-toggle{
+    color: white;
+
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 5px;
+    z-index: 2;
+}
+header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background:#cd6725;
+    font-size: 30px;
+    padding: 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+header .navbar-expand-lg .navbar-nav .btn-primary:hover{
+    background:#cd6725;
+    font-size: 30px;
+    padding: 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.btn:not(:disabled):not(.disabled){
+    outline: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin-top: 10px;
+}
+.modal-backdrop.show{
+    z-index: 8;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+}
+header .modal-content {
+    width: 65%;
+    background: #cd6725;
+    top: 77px;
+    left: 100%;
+}
+header .navbar-expand-lg .navbar-nav .modal-title{
+    color:#000000
+    ;
+}
+header .navbar-expand-lg .navbar-nav .modal-body u{
+    margin: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+header .navbar-expand-lg .navbar-nav .btn-secondary{
+    color: #000000;
+}
+header .navbar-expand-lg .navbar-nav .nav-item .form-control{
+    width: 68%;
+}
+header .navbar-expand-lg .navbar-nav .nav-item  .buscar{
+    color: #ffffff;
+    background: #e6b34a;
+}
+
+header .bg-gris .navbar-collapse{
+    position: relative;
+    left: 200px;
+}
+header .container img {
+    width: 30px;
+    margin: 5px;
+    margin-left: 10px;
+}
+header .container::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    background: url(../img/logo0000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+}
+header::before {
+    content: "";
+    position: absolute;
+    right: 0%;
+    top: -28%;
+    width: 35%;
+    height: 140%;
+    background:url(../img/flequillo-d0000.png);
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-size: cover;
+}
+header::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 25%;
+    height: 60%;
+    background: url(../img/flequillo-i0000.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+header .texto-flotante{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+header .texto-flotante h5{
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #ffffff;
+}
+header .texto-flotante button{
+    background: none;
+    border-radius: 10px;
+    border-color: #cb6725;
+    padding: 15px;
+    margin-bottom: 350px;
+    font-size: 30px;
+    color: #cb6725;
+    border-width: 5px;
+    font-weight: bold;
+}
+header .texto-flotante button img{
+    width: 50px;
+   margin-left: 15px;
+}
+.carousel-indicators li{
+    height: 25px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    margin-right: 5px;
+}
+#servicios .container h2{
+    margin-top: 50px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#servicios .container h2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    bottom: 0;
+}
+#servicios .container h4{
+    margin: 80px 35px;
+    font-size: 30px;
+}
+#servicios .container h4 b{
+    color: #cb6725;
+}
+#servicios .container .vender img{
+    display: inline-block;
+}
+#servicios .container .row .col-md-8 p{
+    display: inline-block;
+    font-size: 25px;
+    float: right;
+    margin-top: 60px;
+}
+#servicios .container .row .col-md-8 p b{
+    color: #cb6725;
+    font-size: 28px;
+}
+#servicios .container .row .col-md-8 p{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: left;
+    padding-right: 10%;
+}
+#servicios .container .row .col-md-8 p b{
+    color: #cb6725;
+    font-size: 28px;
+}
+#servicios .container .comprar img{
+    display: inline-block;
+    float: right;
+    margin-bottom: 30px;
+}
+#ubicacion{
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: url(../img/mapa10000.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    position: relative;
+}
+
+#ubicacion .container .text {
+    width: 80%;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+}
+#ubicacion .container .text h3{
+    padding: 5px;
+    font-size: 35px;
+    color: #cb6725;
+}
+#ubicacion .container .text p{
+    padding: 5px;
+    font-size: 25px;
+}
+
+#ofertas .container h3{
+    font-size:45px;
+    padding-bottom: 20px;
+}
+#ofertas .container .row .col-md-4 .nav-tabs{
+    display: block;
+    text-align: center;
+    border: none;
+}
+#ofertas .container .row .col-md-4 .nav-tabs li a{
+    padding: 100px 70px;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#ofertas .container .row .col-md-4 .nav-tabs li  #moda-tab{
+    background: url(../img/moda0000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ofertas .container .row .col-md-4 .nav-tabs li  #campo-tab{
+    background: url(../img/campo0000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ofertas .container .row .col-md-4 .nav-tabs li  #tecnologia-tab{
+    background: url(../img/tecnologia0000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ofertas .container .row .col-md-8 button{
+    background-color: #cb6725;
+    padding: 20px;
+    border-radius: 20px 5px;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 20%;
+}
+
+#nosotros{
+    background-color: #e6b34a;
+    padding-bottom: 20px;
+}
+#nosotros .container h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 80px;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#nosotros .container h3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    bottom: 0;
+}
+#nosotros .container .row {
+    text-align: center;
+    margin: 30px 10px;
+}
+#nosotros .container p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+footer {
+    position: relative;
+    padding: 15px;
+    margin: 10px;
+}
+footer .container u{
+    
+    color: #000000;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+footer .container .redes{
+    text-align: right;
+}
+@media screen and (max-width:500px) and (min-width:320px){
+    header .container::before{
+        width: 140px;
+        height: 130px;
+        background-size: cover;
+        position: absolute;
+        left: -15px;
+    }
+    .navbar-expand-lg>.container{
+        width: 250px;
+    }
+    header .bg-gris .navbar-collapse{
+        left: 0%;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 10px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link:hover{
+        background:#cd6725;
+        font-size: 15px;
+        padding: 5px 1px 5px 5px;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    header .modal-content{
+        position: relative;
+        left: 80px;
+        top: 300px;
+        width: 50%;
+    }
+    header .navbar-expand-lg .navbar-nav .btn-primary{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    header .navbar-expand-lg .navbar-nav .btn-primary img{
+        position: relative;
+        bottom: 20px;
+    }
+    .mr-auto, .mx-auto{
+        width: 50%;
+        position: relative;
+        right: 100px;
+    }
+    header::after{
+        width: 25%;
+        height: 150px;
+        background-size: cover;
+        top: 40%;
+    }
+    header::before{
+            width: 30%;
+            height: 200px;
+           background-size:cover;
+            margin-top: 25%;
+    }
+    header .texto-flotante h5{
+        font-size: 10px;
+    }
+    [type=button]:not(:disabled){
+        font-size: 10px;
+        width: 150px;
+        height: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        outline: none;
+    }
+    header .texto-flotante button{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        padding: 2px;
+        border: solid;
+    }
+    header .texto-flotante button img{
+        width: 20px;
+    }
+    .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        margin-bottom: -10px;
+    }
+    .bg-gris{
+        padding: 15px 10px 10px 100px;
+    }
+    #servicios .container h2{
+        font-size: 25px;
+    }
+    #servicios .container h4{
+        font-size: 20px;
+    }
+    #servicios .container img{
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-position-x: center;
+    }
+    #servicios .container .row .col-md-8 p{
+        font-size: 20px;
+    }
+    #ubicacion .container .text{
+        margin-left: 5px;
+        padding: 5px;
+        width: 90%;
+    }
+    #ubicacion .container .text h3{
+        font-size: 25px;
+    }
+    #ubicacion .container .text p {
+        font-size: 18px;
+    }
+    #ofertas .container h3{
+        font-size: 25px;
+    }
+  #ofertas .container .row .col-md-4 .nav-tabs li{
+      width: 25%;
+      display: inline-block;
+  }
+  #ofertas .container .row .col-md-4 .nav-tabs li a{
+    padding: 50px 70px 50px 2px;
+    font-size: 10px;
+  }
+  #nosotros .container h3{
+      font-size: 25px;
+  }
+  #nosotros .container p{
+      font-size: 15px;
+  }
+  #nosotros .container img{
+      width: 40%;
+      height: 100px;
+  }
+  footer .container u {
+      font-size: 15px;
+  }
+} 
+@media screen and (max-width:1023px) and (min-width:501px){
+    header .container::before{
+        width: 40%;
+        height: 200px;
+        background-size: cover;
+    }
+    header .texto-flotante h5{
+        font-size: 20px;
+    }
+    header .texto-flotante button {
+        font-size: 20px;
+        padding: 10px;
+        border: solid;
+    }
+    header .texto-flotante button img{
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+    }
+    header::after{
+        width: 30%;
+        height: 70%;
+        background-size: cover;
+    }
+    header::before{
+        width: 30%;
+        height: 100%;
+        background-size:cover;
+        position: absolute;
+        left: 70%;
+    }
+
+    #servicios .container img{
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    #servicios .container h2{
+        font-size: 30px;
+    }
+    #servicios .container h4{
+        font-size: 25px;
+    }
+    #servicios .container .row .col-md-8 p{
+        font-size: 20px;
+    }
+    .ubicacion .container .text{
+        margin: 10px;
+    }
+    .ubicacion .container .text p{
+        font-size: 20px;
+    }
+    #ofertas .container .row .col-md-4 .nav-tabs li a{
+        padding: 50px 20px;
+    }
+    #nosotros .container p {
+        font-size: 15px;
+        margin: 10px;
+    }
+}
